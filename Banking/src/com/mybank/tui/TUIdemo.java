@@ -51,7 +51,7 @@ public class TUIdemo extends TApplication {
         setFocusFollowsMouse(true);
         
         //Open file "test.dat"
-        DataSource dataSource = new DataSource("C:\\Users\\Kot_Shredingera\\Desktop\\OOp\\tui-lab1-34-KotShredengera\\data\\test.dat");
+        DataSource dataSource = new DataSource("C:\\Users\\Desktop\\OOp\\tui-lab1-34-olskr17\\data\\test.dat");
         dataSource.loadData();
         
         
