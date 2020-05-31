@@ -57,6 +57,9 @@ public class CLIdemo {
         String line;
         PrintWriter out = new PrintWriter(System.out);
 
+        DataSource dataSource = new DataSource("C:\\Users\\Desktop\\tui-lab2-34-olskr17\\data\\test.dat");
+        dataSource.loadData();
+        
         while ((line = readLine(reader, "")) != null) {
             if ("help".equals(line)) {
                 printHelp();
